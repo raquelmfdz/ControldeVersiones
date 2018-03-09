@@ -148,6 +148,14 @@ public class Carrera {
         else
             return true;
     }
+
+    public boolean getCorre() {
+        return corre;
+    }
+
+    public void setCorre(boolean corre) {
+        this.corre = corre;
+    }
     
 }
 
